@@ -1,0 +1,60 @@
+<div class="sitek-content">
+    
+   <div class="row">
+     <div class="col-xs-12">
+        <img class="img-responsive center-block" src="./assets/images/image1.png">
+     </div>
+   </div>
+     <div class="row">
+       <div class="col-md-4 col-xs-12 col-sm-4">
+           <h3>Services</h3>
+           <br/>
+           <p>SITEK Consulting Services are a perfect solution for companies that experience frequent 
+             fluctuation in the need for technical resources. As projects begin to ramp up, 
+             SITEK is there to supplement the necessary technical resources to complete the job.</p>
+             <br/>
+             <a [routerLink]="['/services']" class="pointer">read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+       </div> 
+        <div class="col-md-4 col-xs-12 col-sm-4">
+             <h3>Clients</h3>
+             <br/>
+             <p>Here at SITEK, we value our customers by providing high quality products and services. 
+               We take pride to achieve customer satisfaction by not only meeting but exceeding our 
+               customer's expectations. </p>
+               <br/>
+               <br/>
+               <a [routerLink]="['/clients']" class="pointer">read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+         </div> 
+        <div class="col-md-4 col-xs-12 col-sm-4">
+             <h3>Testimonials</h3>
+             <br/>
+             <p>"Ganesh and his team have been a valuable strategic partner for us. 
+               They have consistently delivered dependable results on-time and on-budget. 
+               Their ability to creatively engineer solutions for some of our most complex 
+               technical challenges has significantly improved the IT operations of our association."</p>
+               <br/>
+               <p>- Matt Wells</p>
+               <br/>
+             <p>Techology Manager - KSBA</p>
+         </div> 
+        </div>
+     <div class="row">
+        <div class="col-md-8 col-xs-12 col-sm-8">
+           <h3>News & Publications</h3>
+           <br/>
+           <div *ngFor="let new of news"><img class="sitek-thumbnail" src="./assets/images/sitek-thumsup.png"> <p>{{new.date}}<br/>
+             {{new.description}}</p></div>        
+             <br/>
+           </div>
+          <div class="col-md-4 col-xs-12 col-sm-4">
+             <h3>Contact us</h3>
+             <br/>
+             <p>Telephone:
+                 (859)327-3331
+                  <br/>
+                  <br/>
+                 Email:
+                 contact@siteksolutions.com</p>
+         </div> 
+        </div>
+ </div>

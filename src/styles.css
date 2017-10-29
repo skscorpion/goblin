@@ -1,1 +1,249 @@
 /* You can add global styles to this file, and also import other style files */
+p{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    text-justify: inter-word;
+}
+h3 {
+    color: #2c0eaf;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.pointer {
+cursor: pointer;
+}
+.bg-gray {
+    background-color: #f2f2f2;
+}
+
+  /* .sitek-home-second-row {
+    height: 300px !important;
+}
+  .sitek-home-second-row > .mat-figure {
+      height: 300px !important;
+  } */
+body {
+    /* padding: 2em 23em; */
+    /* background:lightgray; */
+    margin: 0px;
+    /* color: #fff; */
+    font: normal 16px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    background-color: rgb(35, 236, 46);
+    overflow-x: hidden;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+.example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  .pdl-70 {
+    padding-left: 70px;
+  }
+  .menu-container{
+      max-height: 100px;
+      min-width: 100%;
+  }
+  .navbar-nav > li > a{
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+  .bg-green{
+      background-color: rgb(247, 252, 247) !important;
+  }
+  .sitek-menu{
+        padding: 20px;
+        background: transparent;
+        box-shadow: 2px 2px 3px 3px rgba(0,0,0,0.3);
+        /* color: #fff; */
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -ms-animation-duration: 1s;
+        height: 100px;
+    }
+    .sitek-footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: gray;
+        color: white;
+        text-align: center;
+        height: 60px;
+    }
+    .footer-center {
+        width: 15% !important;
+        margin: auto;
+    }
+    .sitek-logo-right{
+        float: right !important;
+        margin-top: -74px;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+        vertical-align: baseline;
+    }
+    .sitek-content{
+        padding: 120px 150px 70px 150px;
+    }
+
+    .fill-remaining-space {
+        /*This fills the remaining space, by using flexbox.
+       Every toolbar row uses a flexbox row layout. */
+       flex: 1 1 auto;
+     }
+     .sitek-logo{
+        width: 170px !important;
+        height: 70px;
+     }
+     .btn-sitek-logo{
+        float: left;
+         /* margin-left: 110px !important; */
+         position: relative !important;
+         /* top: 10px; */
+         /* z-index: 100; */
+     }
+     .sitek-thumbnail{
+         height: 50px;
+         widows: 50px;
+     }
+     .menu-row {
+         height: 35px !important;
+                 width: 100%;
+    }
+
+    .active-btn{
+        background-color: rgb(35, 236, 46);
+        /* border: 1px solid; */
+        border-radius: 25px !important;
+        border: none;
+        outline: none;
+    }
+
+    .navbar-nav > li:hover{
+        background-color: rgb(35, 236, 46);
+        /* border: 1px solid; */
+        /* color: white !important; */
+        border-radius: 25px !important;
+        box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+        /* outline-color: rgba(255, 255, 255, 0); */
+        outline-offset: 15px;
+        text-shadow: 1px 1px 2px #427388;
+        /* -webkit-transition-duration: 0.4s; /* Safari */
+        /* transition-duration: 0.4s; */
+    }
+
+    .nav-btn{
+        max-width: 860px;
+    }
+    .navbar-nav {
+        margin: -32px 0px 0px 190px;
+    }
+    .navbar-nav > li {
+        outline: none;
+
+    }
+  /* .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}*/
+@media (max-width: 768px){
+/* .navbar-fixed-top, .navbar-fixed-bottom {
+    border-radius: 0;
+} */
+.sitek-logo {
+    width: 150px !important;
+    height: 55px;
+}
+}
+
+.mat-tab-links > .mat-ink-bar {
+    display: none;
+    color: red !important;
+    background-color:red !important;
+}
+.mat-tab-header, .mat-tab-nav-bar {
+    border-bottom: none;
+}
+/* Navigation */
+.amd-menu{
+	padding: 20px;
+	background:transparent;
+         box-shadow:2px 2px 3px 3px rgba(0,0,0,0.3);
+         color:#fff;
+         -webkit-animation-duration:1s;
+         -moz-animation-duration:1s;
+         -ms-animation-duration:1s;
+
+}
+.navbar-brand{
+    padding: 0px 15px !important;
+}
+.amd-menu a.navbar-brand {
+text-transform: uppercase;
+font-size: 1.5em;
+/* font-weight: 900; */
+font-weight: bold;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand a{
+    color: #fff;
+    font-size:2em;
+}
+
+.amd-menu.navbar-default .navbar-nav > li > a {
+	text-transform: uppercase;
+	color: #222;
+	letter-spacing: 1px;
+        font-size:.79em;
+       transition:all 1s ease-out;
+       font-weight: bold;
+}
+/* .amd-menu.navbar-default .navbar-nav > li > a:hover {
+
+	color: #222;
+	letter-spacing: 1px;
+        font-size:.79em;
+} */
+/*
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+
+	background-color: transparent;
+	font-weight: 700;
+} */
+
+.navbar-toggle {
+	border-radius:20%;
+        transition:all 1s;
+
+	}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
+        -webkit-box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
+        -moz-box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
+        -ms-box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
+	}
+.navbar-default .navbar-toggle:hover>.icon-bar {
+	background-color: #FFF;
+	}
+
+        #contact .fa
+        {
+            color:#fff;
+            font-size:2em;
+        }
+
